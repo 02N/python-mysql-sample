@@ -19,7 +19,7 @@ class Storage():
       # While fields (host, port) have dynamic values, please use env var to fetch them
       user   = 'ufOtX7THzsKvlxPy',
       passwd = 'pGgryjIfHoqsA0PSk',
-      db     = 'test',
+      db     = 'jz8KxTCIfvFVNJLn',
       host   = os.getenv('MYSQL_PORT_3306_TCP_ADDR'),
       port   = int(os.getenv('MYSQL_PORT_3306_TCP_PORT'))
     )
